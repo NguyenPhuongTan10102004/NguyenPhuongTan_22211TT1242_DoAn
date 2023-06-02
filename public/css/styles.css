@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: ibm plex sans arabic, sans-serif;
+}
+nav {
+    position: fixed;
+    top:0px;
+    right: 0px;
+    left: 0px;
+    background: #fff;
+}
+.nav-link.dropdown-toggle {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+}
+
+.navbar .logo {
+    width: 148.31px;
+    height: 36px;
+}
+
+.logo-mobie {
+    width: 36px;
+    height: 36px;
+}
+
+.dropdown-item {
+    font-size: 13px;
+    margin: 5px 0px;
+}
+
+.dropdown-item:hover {
+    background-color: #02AABD;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.box-address a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logo-address {
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    color: #02AABD;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-big {
+    font-size: 13px;
+    font-weight: bold;
+    color: #212529;
+}
+
+.text-small {
+    font-size: 11.25px;
+    color: #02AABD;
+}
+
+.box-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.logo-cart {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #02aabd12;
+    color: #02AABD;
+    border: 1px solid rgb(2 170 189/21%);
+
+}
+
+.icon-find {
+    border: 1px solid rgb(2 170 189/21%);
+    color: #02AABD;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #02aabd12;
+    width: 35px;
+    height: 35px;
+}
+
+.text-signin {
+    border: 1px solid rgb(2 170 189/21%);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 16px;
+    margin-right: 8px;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(to right, #02AABD, #00ccac);
+    border-radius: 22px;
+}
+
+.text-signin:hover {
+    background: linear-gradient(to right, #00ccac, #02AABD);
+}
+
+.section-sale-download {
+    background: linear-gradient(to right, #02acbc, #00ccad);
+}
+
+.text1 {
+    color: #FFCA9D;
+}
+
+.text2 {
+    color: #02AABD;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text2:hover {
+    color: #02AABD;
+}
+
+.btn-pre {
+    color: #6bc7ca;
+}
+
+.btn-pre:hover {
+    color: #02AABD;
+}
+
+.heading-main-content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-11375px {
+    font-size: 11.375px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+.fs-27 {
+    font-size: 27px;
+}
+.banner .carousel-item img {
+    border-radius: 20px;
+}
+
+.view-all {
+    font-size: 13px;
+    text-decoration: none;
+    color: #02AABD;
+}
+
+.border-box {
+    border: 1px solid #eee;
+    border-radius: 15px;
+}
+
+.border-box:hover {
+    border: 1px solid #02AABD;
+}
+
+.color-0aa9bd{
+    color: #0aa9bd;
+}
+.color-02aabd {
+    color: #02AABD;
+}
+
+.bg-f0f5f7 {
+    background-color: #f0f5f7;
+}
+
+.app-section {
+    border-radius: 22px;
+}
+
+.box-text-heading {
+    padding: 0px 48px;
+}
+
+.heading2 {
+    font-size: 13px;
+}
+
+.bg-footer {
+    background-color: #001233;
+    ;
+}
+
+.logo-footer {
+    width: 90px;
+    height: 90px;
+}
+.footer-md {
+    justify-content:space-around;
+    align-items: center;
+}
+
+/* Set responsive */
+/* min-width : 1200px */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+/* max-width : 992px */
+@media (max-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .list-34 {
+        margin-top: -10px;
+    }
+}
+
+/* max-width : 768px */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .list-34 {
+        margin-top: -10px;
+    }
+}
